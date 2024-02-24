@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wisconsin Lens: Submit Photo</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
@@ -22,25 +23,30 @@
     </header>
 
     <main>
-        <div id="about">
-            <p> Will expand on this section soon!
-            </p>
-        </div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <button id="submitPhotoBtn">Submit Photo</button>
 
-        <div id="galleries">
-            <p> Will expand on this section soon!
-            </p>
-        </div>
-
-        <div id="submit">
-            <p> Will expand on this section soon!
-            </p>
+            <div id="photoForm" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Submit Photo</h3>
+                <form id="photoSubmissionForm">
+                  <input type="text" id="name" placeholder="Name" required>
+                  <input type="text" id="photoLink" placeholder="Photo Link" required>
+                  <textarea id="description" placeholder="Description" required></textarea>
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+            </div>
         </div>
 
     </main>
     <footer>
         <p>&copy; Wisconsin Lens: Capturing the Essence of the Badger State.</p>
     </footer>
+
+    <script src="assets/js/script.js"></script> <!-- Linking to external JavaScript file -->
 </body>
 
 </html>

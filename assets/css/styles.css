@@ -11,7 +11,7 @@
 header {
   background-color: #333; /* Dark background color for header */
   color: #fff; /* Text color for header */
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -24,6 +24,7 @@ header h1 {
 nav ul {
   list-style-type: none;
   text-align: center;
+  padding: 40px;
 }
 
 nav ul li {
@@ -40,6 +41,45 @@ nav ul li a {
 main {
   padding: 20px;
 }
+#about {
+  font-size: 22px;
+  padding: 0 20px;
+}
+#galleries {
+  font-size: 22px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+#submit {
+  font-size: 22px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+#submit ul {
+  font-size: 20px;
+  padding-left: 60px; /* Add padding to the left of the list items */
+}
+#hero {
+  background-image: url("assets/images/hero.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 24px;
+  margin-top: 10px;
+}
 
 /* Styling footer */
 footer {
@@ -48,7 +88,11 @@ footer {
   padding: 20px;
   text-align: center;
 }
-
+footer a {
+  font-family: 'Roboto', sans-serif; /* Use a more distinctive font */
+  text-decoration: none;
+  color: #fff;
+}
 /* Container */
 .container {
   max-width: 800px;
